@@ -1,19 +1,20 @@
 # Backend Assignment
 
 ### Problem Statement:
-You need to build a website backend (Rest API) where a `creator` and `listener` manage their `Podcasts`. A Creator can create `album`, `generes`, `tags` and they can upload `songs` and `podcasts` to the system. Songs & podcasts can be present in multiple `albums` and `generes`. A Listener can then search for podcasts and/or songs using `song name`, `album` and `generes` and also can filter using `album`, `generes` and `tags`.
+You need to build a website backend (Rest API) where a `creator` and `listener` manage their `Podcasts` & `Songs`. A Creator can create `album`, `generes`, `tags` and they can upload `songs` and `podcasts` to the system. Songs & podcasts can be present in multiple `albums` and `generes`. A Listener can then search for podcasts and/or songs using `song name`, `album` and `generes` and also can filter using `album`, `generes` and `tags`.
 
 #### User Stories
-1. As a singer, I can upload a podcast.
-2. As a singer, I can create, edit, delete album.
-3. As a singer, I can create, edit, delete generes.
-4. As a singer, I can create, edit, delete tags.
-5. As a singer, I can upload a song.
-6. As a singer, I can add new tag while uploading song.
-7. As a listener, I can see list of podcasts.
-8. As a listener, I can search podcast by name.
+1. As a creator, I can upload a podcast.
+2. As a creator, I can create, edit, delete album.
+3. As a creator, I can create, edit, delete generes.
+4. As a creator, I can create, edit, delete tags.
+5. As a creator, I can upload a song.
+6. As a creator, I can upload a podcast.
+6. As a creator, I can add new tag while uploading song or podcast.
+7. As a listener, I can see list of podcasts & songs.
+8. As a listener, I can search podcast & song by name.
 9. As a listener, I can filter podcast & songs by album, generes, tags.
-10. As a listener, when I am playing a song, I can get suggested song list using current data.
+10. As a listener, when I am playing a song or podcast, I can get suggested song/podcast list using current data.
 
 Build the application keeping in mind that data duplicacy and time complexity should be minimized.
 
